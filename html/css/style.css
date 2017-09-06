@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    color:#152549;
+    font-size: 72px;
+    font-weight: normal;
+}
+
+h2 {
+    font-variant: small-caps;
+}
+
+a { 
+display: block;
+font-weight: bold;   
+color:red;
+text-decoration: none;
+}
+
+p {
+    background-color:rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+}
+
+#filmography {
+    color: orange;
+}
+
+#filmograpgy_by_year {
+    color: red;
+}
+
+p a {
+    color: blue;
+}
+
+p.red {
+    background-color: red;
+}
+
+p.green {
+    background-color: green;
+}
+
+p.blue {
+    background-color: blue;
+}
+
+p.green a {
+    color: yellow;
+}
+
+p.blue p.red a {
+    color: white;
+}
+
+.seen {
+    color: silver;
+} 
+
+.unseen {
+    color: #bc1828;
+} 
+
+.seen.good {
+    color: #28872a;
+}
+
+#biography a {
+    text-decoration: none;
+}
+
+#biography a:hover {
+    text-decoration: underline;
+}
