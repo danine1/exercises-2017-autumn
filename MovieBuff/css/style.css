@@ -1,0 +1,177 @@
+body {
+    font-family: monospace;
+    background-image: url("../images/vertical-waves.png");
+    max-width: 1000px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+ *{
+    box-sizing: border-box; 
+    }
+
+a {
+    text-decoration: none;
+    color:orangered;
+}
+
+ img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ h1 {
+     font-size: 4em;
+     text-align: center;
+ }
+
+ h2 {
+     font-size: 2rem;
+     text-align: center;
+ }
+
+ h3 {
+     font-size: 1.6rem;
+ }
+
+ h4 {
+    font-size: 1.4rem;
+}
+
+ p {
+     font-size: 1rem;
+ }
+
+ hr {
+     width:70%
+    }
+
+#rating {
+    font-size: 2rem;
+    color:orangered;
+}
+
+.sitetitle {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: orangered;
+}
+
+ /* Here I am setting the max height of the plot section */
+ .plotinfo p {
+     display: block;
+     max-height: 10px;
+     overflow-y: auto; 
+ }
+
+ ul{
+     font-size: 1em;
+     line-height: 1.5em;
+     width:15%;
+ }
+
+.cast1 {
+    list-style-image: url("../images/felicity-jones.gif");
+}
+.cast2 {
+    list-style-image: url("../images/diego-luna.gif");
+}
+.cast3 {
+    list-style-image: url("../images/alan-tudyk.gif");
+}
+
+.cast4 {
+    list-style-image: url("../images/donnie-yen.gif");
+}
+
+.film1 {
+    list-style-image: url("../images/the-amazing-spider-man-2.gif");
+}
+.film2 {
+    list-style-image: url("../images/theory-of-everything.gif");
+}
+.film3 {
+    list-style-image: url("../images/inferno.gif");
+}
+
+.film4 {
+    list-style-image: url("../images/rogue-one.gif");
+}
+
+ @media screen and (min-width: 1000px) {
+    body {
+        width:100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* centres the unordered lists */
+    .filmList ul {
+        display:table; 
+        margin:0 auto;
+     }
+    
+     .castInfo ul {
+        display:table; 
+        margin:0 auto;
+     }
+
+     .filmDetailsInfo ul {
+        display:table; 
+        margin:0 auto;
+        width:50%;
+        list-style: none;
+     }
+
+     /* just for the number rating on movie page */
+    #rating {
+        font-size: 2rem;
+        color:orangered;
+        display:block;
+        width:120px;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .newsinfo, .hotmovie, .hotactor, .bioInfo, filmList {
+        /* margin-top: 50px; */
+        margin-bottom: 50px;
+     
+    }
+
+    .newsinfo, .bioInfo, .plotInfo, .reviewText  {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    img {
+        margin-left:auto;
+        margin-right: auto;
+    }
+
+    .container {
+        display: flex;
+      }
+    
+    .hotmovie, .hotactor{
+        flex: 1;
+        margin: auto;
+        width: 100px;
+        height: 100px;
+    }
+
+    .sitetitle img{
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        color: orangered;
+    }
+}
+
