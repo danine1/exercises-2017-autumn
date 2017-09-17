@@ -1,0 +1,47 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.photo {
+    float: left;
+    margin: 0 1em 1em 0;
+    width: 6em;
+
+}
+
+.profile {
+    display: flex;
+    align-items: flex-start;
+}
+
+.status span {
+    font-weight: bold;
+}
+
+.status span.single {
+    color: green;
+}
+
+.status span.in-relationship {
+    color: red;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+ul.list li a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+ul.list {
+    line-height: 2em;
+}
+
+ul.list img {
+    width: 2em;
+    vertical-align: middle;
+}
+
+
+

@@ -1,0 +1,40 @@
+body {
+  font-family: arial; }
+
+h2 {
+  margin-left: 20%; }
+
+div.movie-logo img {
+  max-width: 25%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%; }
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row; }
+
+.column {
+  margin: 10px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0; }
+
+.column:first-of-type {
+  flex-grow: 2;
+  flex-shrink: 2;
+  flex-basis: 0; }
+
+.column img {
+  width: 100%; }
+
+.column ul {
+  list-style: none;
+  line-height: 1.5em;
+  font-weight: bold;
+  margin-left: 5%; }

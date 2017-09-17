@@ -1,0 +1,35 @@
+h1 {
+  color: lightsalmon; }
+
+h2 {
+  color: lightsalmon; }
+
+body {
+  font-family: Arial; }
+
+section {
+  border-bottom: 1px solid lightblue; }
+
+.bordered, .list-item {
+  border: 1px solid red; }
+
+.list-item {
+  background-color: yellow; }
+
+.shadowed, p, img {
+  box-shadow: 0 8px 17px 0 rgba(109, 23, 23, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+#top {
+  width: 1em; }
+  #top .logo img {
+    width: 1em; }
+  #top .menu {
+    width: 1em; }
+
+section.first a {
+  text-decoration: none; }
+
+section.first p {
+  background-color: #e0e0e0; }
+  section.first p a {
+    color: lightblue; }

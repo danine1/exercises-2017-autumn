@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+#outer {
+    width: 80%;
+    min-height: 80vh;
+    margin-top: 10vh;
+    margin-left:auto;
+    margin-right:auto;
+    background: repeating-linear-gradient(#F46528 0%, #EAAA2A 45%, #47AEB7 70%, #23538A 100%);
+}
+
+#inner {
+    width: 50%;
+    margin: 10%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 75%, rgba(0, 0, 0, 0) 100%);
+    color: #fff;
+}
+
+#smiling {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #fff;
+    background-image: url("smiley.png");
+    background-size: 50% auto;
+    background-position: center center;
+}
+
+#nebula {
+    width: 100%;
+    color: #fff;
+    padding: 2em;
+    /* background-image: url("nebula.jpg");
+    background-position: left top;
+    background-attachment: fixed;
+    background-size: cover; */
+
+    background: url("nebula.jpg") left top/cover fixed;
+}
+
